@@ -24,7 +24,7 @@ export default function Navbar() {
     useOutsideAlerter(wrapperRef);
 
     return (
-        <div className="container">
+        <div className="container md:container-lg">
             <div className="flex py-4 pt-12">
                 <div className="flex items-center justify-between w-full md:w-auto">
                     <div className="mr-10">

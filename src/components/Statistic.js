@@ -33,10 +33,10 @@ export default function Statistic() {
 
     return (
         <div
-            className="flex flex-col justify-center py-16 pb-28 bg-gray-300"
+            className="flex flex-col justify-center py-14 pb-28 bg-gray-300"
             style={{ position: "relative" }}
         >
-            <div className="container absolute left-0 right-0 -top-20">
+            <div className="container md:container-lg absolute left-0 right-0 -top-20">
                 <Shorter urlList={urlList} setUrlList={setUrlList} />
             </div>
             <div className="mt-10 container mb-5">
