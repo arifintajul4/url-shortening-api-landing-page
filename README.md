@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [https://arifintajul4.github.io/url-shortening-api-landing-page/](https://arifintajul4.github.io/url-shortening-api-landing-page/)
--   Live Site URL: [https://github.com/arifintajul4/url-shortening-api-landing-page](https://github.com/arifintajul4/url-shortening-api-landing-page)
+-   Solution URL: [https://www.frontendmentor.io/solutions/react-js-site-with-tailwindcss-kDxJlwc55](https://www.frontendmentor.io/solutions/react-js-site-with-tailwindcss-kDxJlwc55)
+-   Live Site URL: [https://arifintajul4.github.io/url-shortening-api-landing-page](https://arifintajul4.github.io/url-shortening-api-landing-page)
 
 ## My process
 
