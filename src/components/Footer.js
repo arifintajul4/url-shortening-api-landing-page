@@ -2,52 +2,52 @@ import React from "react";
 
 export default function Footer(props) {
     return (
-        <div className="bg-purple-dark">
+        <div className="bg-violet-dark">
             <div className="container md:container-lg py-16  grid grid-cols-1 md:grid-cols-6 gap-8 md:gap-0 text-center md:text-left text-white">
                 <div className="md:col-span-2">
                     <h1 className="font-bold text-3xl">Shortly</h1>
                 </div>
                 <div>
-                    <h2 className="font-bold text-xl mb-4">Features</h2>
+                    <h2 className="font-semibold text-xl mb-4">Features</h2>
                     <ul>
-                        <li className="text-gray-300 hover:text-green-dark font-medium mb-1 md:mb-0">
+                        <li className="text-gray-sm hover:text-cyan-dark font-medium mb-1">
                             <a href="/">Link Shortening</a>
                         </li>
-                        <li className="text-gray-300 hover:text-green-dark font-medium mb-1 md:mb-0">
+                        <li className="text-gray-sm hover:text-cyan-dark font-medium mb-1">
                             <a href="/">Branded Links</a>
                         </li>
-                        <li className="text-gray-300 hover:text-green-dark font-medium mb-1 md:mb-0">
+                        <li className="text-gray-sm hover:text-cyan-dark font-medium mb-1">
                             <a href="/">Analytics</a>
                         </li>
                     </ul>
                 </div>
                 <div>
-                    <h2 className="font-bold text-xl mb-4">Resources</h2>
+                    <h2 className="font-semibold text-xl mb-4">Resources</h2>
                     <ul>
-                        <li className="text-gray-300 hover:text-green-dark font-medium mb-1 md:mb-0">
+                        <li className="text-gray-sm hover:text-cyan-dark font-medium mb-1">
                             <a href="/">Blog</a>
                         </li>
-                        <li className="text-gray-300 hover:text-green-dark font-medium mb-1 md:mb-0">
+                        <li className="text-gray-sm hover:text-cyan-dark font-medium mb-1">
                             <a href="/">Developers</a>
                         </li>
-                        <li className="text-gray-300 hover:text-green-dark font-medium mb-1 md:mb-0">
+                        <li className="text-gray-sm hover:text-cyan-dark font-medium mb-1">
                             <a href="/">Supports</a>
                         </li>
                     </ul>
                 </div>
                 <div>
-                    <h2 className="font-bold text-xl mb-4">Company</h2>
+                    <h2 className="font-semibold text-xl mb-4">Company</h2>
                     <ul>
-                        <li className="text-gray-300 hover:text-green-dark font-medium mb-1 md:mb-0">
+                        <li className="text-gray-sm hover:text-cyan-dark font-medium mb-1">
                             <a href="/">About</a>
                         </li>
-                        <li className="text-gray-300 hover:text-green-dark font-medium mb-1 md:mb-0">
+                        <li className="text-gray-sm hover:text-cyan-dark font-medium mb-1">
                             <a href="/">Our Team</a>
                         </li>
-                        <li className="text-gray-300 hover:text-green-dark font-medium mb-1 md:mb-0">
+                        <li className="text-gray-sm hover:text-cyan-dark font-medium mb-1">
                             <a href="/">Careers</a>
                         </li>
-                        <li className="text-gray-300 hover:text-green-dark font-medium mb-1 md:mb-0">
+                        <li className="text-gray-sm hover:text-cyan-dark font-medium mb-1">
                             <a href="/">Contact</a>
                         </li>
                     </ul>
@@ -60,7 +60,7 @@ export default function Footer(props) {
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="24"
                                     height="24"
-                                    className="hover:text-green-dark"
+                                    className="hover:text-cyan-dark"
                                 >
                                     <path
                                         fill="currentColor"
@@ -75,7 +75,7 @@ export default function Footer(props) {
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="24"
                                     height="20"
-                                    className="hover:text-green-dark"
+                                    className="hover:text-cyan-dark"
                                 >
                                     <path
                                         fill="currentColor"
@@ -90,7 +90,7 @@ export default function Footer(props) {
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="24"
                                     height="24"
-                                    className="hover:text-green-dark"
+                                    className="hover:text-cyan-dark"
                                 >
                                     <path
                                         fill="currentColor"
@@ -105,7 +105,7 @@ export default function Footer(props) {
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="24"
                                     height="24"
-                                    className="hover:text-green-dark"
+                                    className="hover:text-cyan-dark"
                                 >
                                     <path
                                         fill="currentColor"

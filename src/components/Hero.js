@@ -5,10 +5,10 @@ export default function Hero() {
     return (
         <div className="container md:container-lg grid items-center grid-cols-1 md:grid-cols-2 gap-4 h-screen">
             <div className="my-auto text-center md:text-left md:pb-20">
-                <h1 className="font-bold text-3xl md:text-7xl mb-3 text-gray-800 leading-relaxed">
+                <h1 className="font-bold text-5xl md:text-7xl mb-3 text-gray-lg leading-relaxed">
                     More than just shorter links
                 </h1>
-                <p className="text-gray-600 mb-5 leading-relaxed md:text-xl">
+                <p className="text-gray-sm mb-5 leading-relaxed md:text-xl">
                     Build your brand's recognition and get detailed insights on
                     how your links are perfoming.
                 </p>

@@ -8,7 +8,7 @@ module.exports = {
             center: true,
             padding: {
                 DEFAULT: "2rem",
-                lg: "5rem",
+                lg: "6rem",
             },
         },
         extend: {
@@ -30,14 +30,23 @@ module.exports = {
                 dark: "hsl(257, 27%, 26%)",
                 DEFAULT: "hsl(255, 11%, 22%)",
             },
-            green: {
+            cyan: {
                 dark: "#53c0bb",
                 DEFAULT: "hsl(180, 66%, 49%)",
                 light: "#9be3e2",
             },
+            violet: {
+                dark: "hsl(260, 8%, 14%)",
+                DEFAULT: "hsl(257, 27%, 26%)",
+            },
             white: colors.white,
-            gray: colors.trueGray,
-            red: colors.red,
+            gray: {
+                DEFAULT: "hsl(0, 0%, 75%)",
+                sm: "hsl(257, 7%, 63%)",
+                md: "hsl(255, 11%, 22%)",
+                lg: "hsl(260, 8%, 14%)",
+            },
+            red: "hsl(0, 87%, 67%)",
             blue: colors.blue,
             indigo: colors.indigo,
         },

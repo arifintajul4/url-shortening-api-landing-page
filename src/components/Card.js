@@ -10,12 +10,10 @@ export default function card(props) {
                     backgroundSize: "30px 30px",
                 }}
             ></div>
-            <h1 className="font-bold text-2xl text-gray-900 mb-3">
+            <h1 className="font-bold text-2xl text-gray-lg mb-3">
                 {props.title}
             </h1>
-            <p className="text-gray-500 text-lg leading-relaxed">
-                {props.desc}
-            </p>
+            <p className="text-gray-sm text-lg leading-relaxed">{props.desc}</p>
         </div>
     );
 }

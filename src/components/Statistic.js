@@ -33,8 +33,8 @@ export default function Statistic() {
 
     return (
         <div
-            className="flex flex-col justify-center py-14 pb-28 bg-gray-300"
-            style={{ position: "relative" }}
+            className="flex flex-col justify-center py-14 pb-28 relative"
+            style={{ backgroundColor: "#f0f1f6" }}
         >
             <div className="container md:container-lg absolute left-0 right-0 -top-20">
                 <Shorter urlList={urlList} setUrlList={setUrlList} />
@@ -46,14 +46,14 @@ export default function Statistic() {
                             key={idx}
                             className="bg-white p-4 rounded grid items-center grid-cols-1 md:grid-cols-7 gap-4 mb-4"
                         >
-                            <div className="md:col-span-4 font-bold text-gray-700 border-b-2 md:border-b-0 pb-2 md:pb-0">
+                            <div className="md:col-span-4 font-bold text-gray-lg text-sm border-b-2 md:border-b-0 pb-2 md:pb-0">
                                 {el.link}
                             </div>
                             <div className="md:col-span-2 md:text-right">
                                 <a
                                     href={el.short}
                                     target="_blank"
-                                    className="text-green font-bold cursor-pointer"
+                                    className="text-cyan font-bold cursor-pointer text-sm"
                                 >
                                     {el.short}
                                 </a>
@@ -64,7 +64,7 @@ export default function Statistic() {
                                         navigator.clipboard.writeText(el.short);
                                         handleOnCopy();
                                     }}
-                                    className="h-0 w-full focus:bg-purple"
+                                    className="h-0 w-full focus:bg-purple text-sm"
                                 >
                                     Copy
                                 </Button.alternatif>
@@ -74,22 +74,22 @@ export default function Statistic() {
                 })}
 
                 <div className="grid grid-cols-4">
-                    <div></div>
-                    <div className="text-center mt-16 md:col-span-2">
-                        <h1 className="text-xl md:text-5xl font-bold text-gray-900 mb-4">
+                    <div className="hidden md:block"></div>
+                    <div className="text-center mt-16 col-span-4 md:col-span-2">
+                        <h1 className="text-xl md:text-5xl font-bold text-gray-lg mb-4">
                             Advanced Statistic
                         </h1>
-                        <p className="text-gray-700">
+                        <p className="text-gray-sm">
                             Track how your links are performing across the web
                             with our advanced statistic dashboard.
                         </p>
                     </div>
-                    <div></div>
+                    <div className="hidden md:block"></div>
                 </div>
             </div>
             <div>
                 <div className="relative block md:hidden">
-                    <div className="h-96 w-3 bg-green mx-auto absolute left-0 right-0 top-48"></div>
+                    <div className="h-96 w-3 bg-cyan mx-auto absolute left-0 right-0 top-72"></div>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-16 md:gap-10 container mt-14 mb-0 md:mb-20">
                     <div className="static z-10">
@@ -121,7 +121,7 @@ export default function Statistic() {
                     </div>
                     <div className="md:col-span-3 hidden md:block">
                         <div className="relative">
-                            <div className="h-3 md:w-auto bg-green mx-auto absolute left-5 right-5 -top-40 z-0"></div>
+                            <div className="h-3 md:w-auto bg-cyan mx-auto absolute left-5 right-5 -top-40 z-0"></div>
                         </div>
                     </div>
                 </div>

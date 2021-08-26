@@ -3,9 +3,9 @@ import * as Button from "./Button";
 
 export default function BotomAction() {
     return (
-        <div className="text-center py-16 bg-boost-mobile md:bg-boost-desktop bg-no-repeat bg-cover bg-purple">
+        <div className="text-center py-16 pb-20 bg-boost-mobile md:bg-boost-desktop bg-no-repeat bg-cover bg-violet">
             <div className="container md:container-md">
-                <h1 className="text-white font-bold text-3xl md:text-3xl mb-5">
+                <h1 className="text-white font-bold text-3xl md:text-3xl mb-7">
                     Boost your links today
                 </h1>
 

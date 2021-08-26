@@ -10,7 +10,7 @@ export default function Alert({ message, onClose }) {
                 className={`py-2 px-4 bg-indigo-800 rounded-full items-center text-indigo-100 leading-none inline-flex`}
                 role="alert"
             >
-                <span className="font-semibold mr-2 text-left flex-auto">
+                <span className="font-medium text-sm mr-2 text-left flex-auto">
                     {message}
                 </span>
                 <button onClick={handleOnClose}>

@@ -28,10 +28,7 @@ export default function Navbar() {
             <div className="flex py-4 pt-12">
                 <div className="flex items-center justify-between w-full md:w-auto">
                     <div className="mr-10">
-                        <a
-                            href="/"
-                            className="text-3xl font-bold text-gray-800"
-                        >
+                        <a href="/" className="text-3xl font-bold text-gray-lg">
                             Shortly
                         </a>
                     </div>
@@ -73,13 +70,13 @@ export default function Navbar() {
                 </div>
                 <div className="items-center justify-between w-full hidden md:flex">
                     <ul className="flex items-center">
-                        <li className="text-md mr-5 font-medium text-gray-500 hover:text-gray-900">
+                        <li className="text-md mr-5 font-semibold text-gray-sm hover:text-gray-md">
                             <a href="/">Features</a>
                         </li>
-                        <li className="text-md mr-5 font-medium text-gray-500 hover:text-gray-900">
+                        <li className="text-md mr-5 font-semibold text-gray-sm hover:text-gray-md">
                             <a href="/">Pricing</a>
                         </li>
-                        <li className="text-md mr-5 font-medium text-gray-500 hover:text-gray-900">
+                        <li className="text-md mr-5 font-semibold text-gray-sm hover:text-gray-md">
                             <a href="/">Resources</a>
                         </li>
                     </ul>
@@ -101,23 +98,23 @@ export default function Navbar() {
                     transform: isActive ? "scaleY(1)" : "scaleY(0)",
                 }}
             >
-                <div className="flex flex-col px-4 py-6 rounded-md absolute top-0 left-0 right-0 bg-purple">
+                <div className="flex flex-col px-4 py-6 rounded-md absolute top-0 left-0 right-0 bg-violet">
                     <ul className="text-center">
-                        <li className="text-md font-medium mb-3 text-white">
+                        <li className="text-md font-medium mb-3 text-white hover:text-gray-sm">
                             <a href="/">Features</a>
                         </li>
-                        <li className="text-md font-medium mb-3 text-white">
+                        <li className="text-md font-medium mb-3 text-white hover:text-gray-sm">
                             <a href="/">Pricing</a>
                         </li>
-                        <li className="text-md font-medium text-white">
+                        <li className="text-md font-medium text-white hover:text-gray-sm">
                             <a href="/">Resources</a>
                         </li>
                     </ul>
-                    <div className="flex flex-col border-t-2 border-gray-700 mt-5 pt-3">
-                        <button className="text-white text-md font-bold px-5 py-1 text-center">
+                    <div className="flex flex-col border-t-2 border-violet-dark mt-5 pt-3">
+                        <button className="text-white hover:text-gray-sm text-md font-bold px-5 py-1 text-center">
                             Login
                         </button>
-                        <Button.primary className="mt-3">
+                        <Button.primary className="mt-3 font-bold">
                             Sign Up
                         </Button.primary>
                     </div>
