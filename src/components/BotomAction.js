@@ -8,11 +8,10 @@ export default function BotomAction() {
                 <h1 className="text-white font-bold text-2xl md:text-3xl mb-5">
                     Boost your links today
                 </h1>
-                <a href="#">
-                    <Button.primary className="h-12">
-                        Get Started
-                    </Button.primary>
-                </a>
+
+                <Button.primary className="h-12">
+                    <a href="/">Get Started</a>
+                </Button.primary>
             </div>
         </div>
     );

@@ -24,12 +24,12 @@ module.exports = {
             transparent: "transparent",
             current: "currentColor",
             purple: {
-                dark: "#232027",
-                DEFAULT: "#3a3053",
+                dark: "hsl(257, 27%, 26%)",
+                DEFAULT: "hsl(255, 11%, 22%)",
             },
             green: {
                 dark: "#53c0bb",
-                DEFAULT: "#33cfd0",
+                DEFAULT: "hsl(180, 66%, 49%)",
                 light: "#9be3e2",
             },
             white: colors.white,

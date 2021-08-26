@@ -55,7 +55,7 @@ export default function Footer(props) {
                 <div>
                     <ul className="flex justify-evenly">
                         <li>
-                            <a href="#">
+                            <a href="/">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="24"
@@ -70,7 +70,7 @@ export default function Footer(props) {
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="/">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="24"
@@ -85,7 +85,7 @@ export default function Footer(props) {
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="/">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="24"
@@ -100,7 +100,7 @@ export default function Footer(props) {
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="/">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="24"

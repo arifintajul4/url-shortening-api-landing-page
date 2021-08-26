@@ -84,14 +84,13 @@ export default function Navbar() {
                         </li>
                     </ul>
                     <div>
-                        <a href="#">
-                            <Button.secondary className="mr-2">
-                                Login
-                            </Button.secondary>
-                        </a>
-                        <a href="#">
-                            <Button.primary>Sign Up</Button.primary>
-                        </a>
+                        <Button.secondary className="mr-2">
+                            <a href="/">Login</a>
+                        </Button.secondary>
+
+                        <Button.primary>
+                            <a href="/">Sign Up</a>
+                        </Button.primary>
                     </div>
                 </div>
             </div>
