@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshot.png)
 
 ### Links
 
@@ -46,7 +46,7 @@ Users should be able to:
 ### Useful resources
 
 -   [Stackoverflow](https://stackoverflow.com/) - This helped me to find error solution.
--   [https://heroicons.com/](https://heroicons.com/) - This helped me to find an icon.
+-   [Heroicons](https://heroicons.com/) - This helped me to find an icon.
 -   [Google](https://www.google.com) - Helped me to find usefull resources hehe.
 
 ## Author
