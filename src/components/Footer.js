@@ -3,7 +3,7 @@ import React from "react";
 export default function Footer(props) {
     return (
         <div className="bg-purple-dark">
-            <div className="container py-10 grid grid-cols-1 md:grid-cols-6 gap-8 md:gap-0 text-center md:text-left text-white">
+            <div className="container py-16  grid grid-cols-1 md:grid-cols-6 gap-8 md:gap-0 text-center md:text-left text-white">
                 <div className="md:col-span-2">
                     <h1 className="font-bold text-2xl">Shortly</h1>
                 </div>

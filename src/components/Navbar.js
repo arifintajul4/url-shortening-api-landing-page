@@ -25,12 +25,12 @@ export default function Navbar() {
 
     return (
         <div className="container">
-            <div className="flex py-4">
+            <div className="flex py-4 pt-12">
                 <div className="flex items-center justify-between w-full md:w-auto">
-                    <div className="mr-6">
+                    <div className="mr-10">
                         <a
                             href="/"
-                            className="text-2xl font-bold text-gray-800"
+                            className="text-3xl font-bold text-gray-800"
                         >
                             Shortly
                         </a>
@@ -73,13 +73,13 @@ export default function Navbar() {
                 </div>
                 <div className="items-center justify-between w-full hidden md:flex">
                     <ul className="flex items-center">
-                        <li className="text-md mr-3 font-medium text-gray-500 hover:text-gray-900">
+                        <li className="text-md mr-5 font-medium text-gray-500 hover:text-gray-900">
                             <a href="/">Features</a>
                         </li>
-                        <li className="text-md mr-3 font-medium text-gray-500 hover:text-gray-900">
+                        <li className="text-md mr-5 font-medium text-gray-500 hover:text-gray-900">
                             <a href="/">Pricing</a>
                         </li>
-                        <li className="text-md mr-3 font-medium text-gray-500 hover:text-gray-900">
+                        <li className="text-md mr-5 font-medium text-gray-500 hover:text-gray-900">
                             <a href="/">Resources</a>
                         </li>
                     </ul>
@@ -114,12 +114,9 @@ export default function Navbar() {
                         </li>
                     </ul>
                     <div className="flex flex-col border-t-2 border-gray-700 mt-5 pt-3">
-                        <a
-                            href="/"
-                            className="text-white text-md font-bold px-5 py-1 text-center"
-                        >
+                        <button className="text-white text-md font-bold px-5 py-1 text-center">
                             Login
-                        </a>
+                        </button>
                         <Button.primary className="mt-3">
                             Sign Up
                         </Button.primary>

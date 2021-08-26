@@ -2,7 +2,7 @@ import React from "react";
 
 export default function card(props) {
     return (
-        <div className="p-4 pt-10 bg-white rounded shadow relative">
+        <div className="px-8 py-10 bg-white rounded shadow relative">
             <div
                 className="w-14 h-14 rounded-full bg-purple absolute -top-7 bg-no-repeat bg-center"
                 style={{
@@ -10,10 +10,12 @@ export default function card(props) {
                     backgroundSize: "30px 30px",
                 }}
             ></div>
-            <h1 className="font-bold text-lg text-gray-900 mb-1">
+            <h1 className="font-bold text-2xl text-gray-900 mb-3">
                 {props.title}
             </h1>
-            <p className="text-gray-500 text-sm">{props.desc}</p>
+            <p className="text-gray-500 text-lg leading-relaxed">
+                {props.desc}
+            </p>
         </div>
     );
 }

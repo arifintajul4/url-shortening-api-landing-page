@@ -62,7 +62,7 @@ export default function Shorter({ urlList, setUrlList }) {
     }, [isSuccess]);
 
     return (
-        <div className="p-5 md:p-10 rounded bg-purple bg-shorten-mobile md:bg-shorten-desktop bg-cover bg-no-repeat">
+        <div className="p-5 md:p-14 rounded-lg shadow bg-purple bg-shorten-mobile md:bg-shorten-desktop bg-cover bg-no-repeat">
             <form
                 className="grid grid-cols-1 md:grid-cols-4 gap-4"
                 onSubmit={handleSubmit}
@@ -72,13 +72,13 @@ export default function Shorter({ urlList, setUrlList }) {
                         type="text"
                         value={url}
                         onChange={(e) => setUrl(e.target.value)}
-                        className={`w-full h-12 border-2 rounded px-4 py-2 focus:outline-none ${
+                        className={`w-full h-14 border-2 rounded px-4 py-2 focus:outline-none ${
                             isError ? "ring-2 ring-red-300" : "ring-0"
                         } focus:ring-4`}
                         placeholder="Shorten a link here..."
                     />
                     {isError && (
-                        <p className="text-red-300 text-sm">
+                        <p className="text-red-300 text-sm mt-2">
                             <i>Please add a link</i>
                         </p>
                     )}
@@ -87,7 +87,7 @@ export default function Shorter({ urlList, setUrlList }) {
                 <Button.alternatif
                     type="submit"
                     disabled={isLoading}
-                    className="h-12"
+                    className="h-14"
                 >
                     {isLoading ? (
                         <div className="flex items-center justify-center">
@@ -99,7 +99,7 @@ export default function Shorter({ urlList, setUrlList }) {
                     )}
                 </Button.alternatif>
             </form>
-            <div className="fixed bottom-0 left-0 right-0">
+            <div className="fixed bottom-0 left-0 right-0 z-50">
                 {isSuccess && (
                     <Alert
                         message="Success!"

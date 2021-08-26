@@ -33,13 +33,10 @@ export default function Statistic() {
 
     return (
         <div
-            className="flex flex-col justify-center py-16 bg-gray-300"
+            className="flex flex-col justify-center py-16 pb-28 bg-gray-300"
             style={{ position: "relative" }}
         >
-            <div
-                className="container"
-                style={{ position: "absolute", left: 0, right: 0, top: -60 }}
-            >
+            <div className="container absolute left-0 right-0 -top-20">
                 <Shorter urlList={urlList} setUrlList={setUrlList} />
             </div>
             <div className="mt-10 container mb-5">
@@ -76,21 +73,25 @@ export default function Statistic() {
                     );
                 })}
 
-                <div className="text-center mt-16">
-                    <h1 className="text-xl md:text-3xl font-bold text-gray-900 mb-4">
-                        Advanced Statistic
-                    </h1>
-                    <p className="text-gray-700">
-                        Track how your links are performing across the web with
-                        our advanced statistic dashboard.
-                    </p>
+                <div className="grid grid-cols-4">
+                    <div></div>
+                    <div className="text-center mt-16 md:col-span-2">
+                        <h1 className="text-xl md:text-5xl font-bold text-gray-900 mb-4">
+                            Advanced Statistic
+                        </h1>
+                        <p className="text-gray-700">
+                            Track how your links are performing across the web
+                            with our advanced statistic dashboard.
+                        </p>
+                    </div>
+                    <div></div>
                 </div>
             </div>
             <div>
                 <div className="relative block md:hidden">
                     <div className="h-96 w-3 bg-green mx-auto absolute left-0 right-0 top-48"></div>
                 </div>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-16 md:gap-5 container mt-14 mb-0 md:mb-20">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-16 md:gap-10 container mt-14 mb-0 md:mb-20">
                     <div className="static z-10">
                         <Card
                             title="Brand Recognition"
@@ -101,7 +102,7 @@ export default function Statistic() {
                         />
                     </div>
                     <div className="static md:relative z-10">
-                        <div className="static md:absolute md:top-10">
+                        <div className="static md:absolute md:top-14">
                             <Card
                                 title="Detailed Records"
                                 icon={iconDetailed}
@@ -110,7 +111,7 @@ export default function Statistic() {
                         </div>
                     </div>
                     <div className="static md:relative z-10">
-                        <div className="static md:absolute md:top-20">
+                        <div className="static md:absolute md:top-28">
                             <Card
                                 title="Fully Customable"
                                 icon={iconFully}
@@ -120,7 +121,7 @@ export default function Statistic() {
                     </div>
                     <div className="md:col-span-3 hidden md:block">
                         <div className="relative">
-                            <div className="h-3 md:w-auto bg-green mx-auto absolute left-5 right-5 -top-14 z-0"></div>
+                            <div className="h-3 md:w-auto bg-green mx-auto absolute left-5 right-5 -top-40 z-0"></div>
                         </div>
                     </div>
                 </div>
