@@ -5,7 +5,7 @@ export default function Hero() {
     return (
         <div className="container grid grid-cols-1 md:grid-cols-2 mb-24 gap-4 pt-0 my-10">
             <div className="my-auto text-center md:text-left">
-                <h1 className="font-bold text-3xl md:text-5xl mb-3 text-gray-800">
+                <h1 className="font-bold text-2xl md:text-4xl mb-3 text-gray-800">
                     More than just shorter links
                 </h1>
                 <p className="text-gray-600 mb-5">

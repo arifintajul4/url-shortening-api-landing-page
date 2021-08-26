@@ -88,7 +88,7 @@ export default function Statistic() {
             </div>
             <div>
                 <div className="relative block md:hidden">
-                    <div className="h-96 w-3 bg-green mx-auto absolute left-0 right-0 top-52"></div>
+                    <div className="h-96 w-3 bg-green mx-auto absolute left-0 right-0 top-48"></div>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-16 md:gap-5 container mt-14 mb-0 md:mb-20">
                     <div className="static z-10">
