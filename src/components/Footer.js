@@ -4,7 +4,7 @@ export default function Footer(props) {
     return (
         <div className="bg-violet-dark">
             <div className="container md:container-lg py-16  grid grid-cols-1 md:grid-cols-6 gap-8 md:gap-0 text-center md:text-left text-white">
-                <div className="md:col-span-2" role="contentinfo">
+                <div className="md:col-span-2">
                     <h1 className="font-bold text-3xl">Shortly</h1>
                 </div>
                 <div role="contentinfo">
