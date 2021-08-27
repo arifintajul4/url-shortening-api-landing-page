@@ -21,7 +21,7 @@ export default function Footer(props) {
                         </li>
                     </ul>
                 </div>
-                <div role="menuitem">
+                <div>
                     <h2 className="font-semibold text-xl mb-4">Resources</h2>
                     <ul>
                         <li className="text-gray-sm hover:text-cyan-dark font-medium mb-1">
@@ -35,7 +35,7 @@ export default function Footer(props) {
                         </li>
                     </ul>
                 </div>
-                <div role="menuitem">
+                <div>
                     <h2 className="font-semibold text-xl mb-4">Company</h2>
                     <ul>
                         <li className="text-gray-sm hover:text-cyan-dark font-medium mb-1">
@@ -52,7 +52,7 @@ export default function Footer(props) {
                         </li>
                     </ul>
                 </div>
-                <div role="menuitem">
+                <div>
                     <ul className="flex justify-evenly">
                         <li>
                             <svg
