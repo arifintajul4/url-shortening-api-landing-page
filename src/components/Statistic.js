@@ -33,7 +33,7 @@ export default function Statistic() {
 
     return (
         <div
-            className="flex flex-col justify-center py-14 pb-28 relative"
+            className="flex flex-col justify-center py-28 relative"
             style={{ backgroundColor: "#f0f1f6" }}
         >
             <div className="container md:container-lg absolute left-0 right-0 -top-20">
