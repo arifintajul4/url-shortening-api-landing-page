@@ -4,10 +4,10 @@ export default function Footer(props) {
     return (
         <div className="bg-violet-dark">
             <div className="container md:container-lg py-16  grid grid-cols-1 md:grid-cols-6 gap-8 md:gap-0 text-center md:text-left text-white">
-                <div className="md:col-span-2">
+                <div className="md:col-span-2" role="banner">
                     <h1 className="font-bold text-3xl">Shortly</h1>
                 </div>
-                <div>
+                <div role="contentinfo">
                     <h2 className="font-semibold text-xl mb-4">Features</h2>
                     <ul>
                         <li className="text-gray-sm hover:text-cyan-dark font-medium mb-1">
@@ -21,7 +21,7 @@ export default function Footer(props) {
                         </li>
                     </ul>
                 </div>
-                <div>
+                <div role="contentinfo">
                     <h2 className="font-semibold text-xl mb-4">Resources</h2>
                     <ul>
                         <li className="text-gray-sm hover:text-cyan-dark font-medium mb-1">
@@ -35,7 +35,7 @@ export default function Footer(props) {
                         </li>
                     </ul>
                 </div>
-                <div>
+                <div role="contentinfo">
                     <h2 className="font-semibold text-xl mb-4">Company</h2>
                     <ul>
                         <li className="text-gray-sm hover:text-cyan-dark font-medium mb-1">
@@ -52,7 +52,7 @@ export default function Footer(props) {
                         </li>
                     </ul>
                 </div>
-                <div>
+                <div role="contentinfo">
                     <ul className="flex justify-evenly">
                         <li>
                             <svg

@@ -27,7 +27,7 @@ export default function Navbar() {
         <div className="container md:container-lg">
             <div className="flex py-4 md:pt-12">
                 <div className="flex items-center justify-between w-full md:w-auto">
-                    <div className="mr-10">
+                    <div className="mr-10" role="banner">
                         <a href="/" className="text-3xl font-bold text-gray-lg">
                             Shortly
                         </a>
@@ -68,7 +68,10 @@ export default function Navbar() {
                         </button>
                     </div>
                 </div>
-                <div className="items-center justify-between w-full hidden md:flex">
+                <div
+                    className="items-center justify-between w-full hidden md:flex"
+                    role="navigation"
+                >
                     <ul className="flex items-center">
                         <li className="text-md mr-5 font-semibold text-gray-sm hover:text-gray-md">
                             <a href="/">Features</a>
@@ -80,7 +83,7 @@ export default function Navbar() {
                             <a href="/">Resources</a>
                         </li>
                     </ul>
-                    <div>
+                    <div role="button">
                         <Button.secondary className="mr-2">
                             Login
                         </Button.secondary>

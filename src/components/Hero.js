@@ -3,7 +3,10 @@ import * as Button from "./Button";
 
 export default function Hero() {
     return (
-        <div className="container md:container-lg grid items-center grid-cols-1 md:grid-cols-2 gap-4 pt-28 pb-40">
+        <div
+            className="container md:container-lg grid items-center grid-cols-1 md:grid-cols-2 gap-4 pt-28 pb-40"
+            role="banner"
+        >
             <div className="my-auto text-center md:text-left">
                 <h1 className="font-bold text-5xl md:text-7xl mb-3 text-gray-lg">
                     More than just shorter links

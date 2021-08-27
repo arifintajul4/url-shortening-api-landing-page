@@ -36,10 +36,13 @@ export default function Statistic() {
             className="flex flex-col justify-center py-14 pb-28 relative"
             style={{ backgroundColor: "#f0f1f6" }}
         >
-            <div className="container md:container-lg absolute left-0 right-0 -top-20">
+            <div
+                className="container md:container-lg absolute left-0 right-0 -top-20"
+                role="main"
+            >
                 <Shorter urlList={urlList} setUrlList={setUrlList} />
             </div>
-            <div className="mt-10 container mb-5">
+            <div className="mt-10 container mb-5" role="grid">
                 {urlList.map((el, idx) => {
                     return (
                         <div
@@ -58,7 +61,7 @@ export default function Statistic() {
                                     {el.short}
                                 </a>
                             </div>
-                            <div>
+                            <div role="button">
                                 <Button.alternatif
                                     onClick={() => {
                                         navigator.clipboard.writeText(el.short);
@@ -87,11 +90,14 @@ export default function Statistic() {
                     <div className="hidden md:block"></div>
                 </div>
             </div>
-            <div>
+            <div role="main">
                 <div className="relative block md:hidden">
                     <div className="h-96 w-3 bg-cyan mx-auto absolute left-0 right-0 top-72"></div>
                 </div>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-16 md:gap-10 container mt-14 mb-0 md:mb-20">
+                <div
+                    className="grid grid-cols-1 md:grid-cols-3 gap-16 md:gap-10 container mt-14 mb-0 md:mb-20"
+                    role="grid"
+                >
                     <div className="static z-10">
                         <Card
                             title="Brand Recognition"
