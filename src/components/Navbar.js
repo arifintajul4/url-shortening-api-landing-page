@@ -25,7 +25,7 @@ export default function Navbar() {
 
     return (
         <div className="container md:container-lg">
-            <div className="flex py-4 pt-12">
+            <div className="flex py-4 md:pt-12">
                 <div className="flex items-center justify-between w-full md:w-auto">
                     <div className="mr-10">
                         <a href="/" className="text-3xl font-bold text-gray-lg">
