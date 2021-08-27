@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [https://www.frontendmentor.io/solutions/react-js-site-with-tailwindcss-kDxJlwc55](https://www.frontendmentor.io/solutions/react-js-site-with-tailwindcss-kDxJlwc55)
+-   Solution URL: [https://www.frontendmentor.io/solutions/react-url-shortening-landing-page-with-tailwindcss-cn4BjKuVl](https://www.frontendmentor.io/solutions/react-url-shortening-landing-page-with-tailwindcss-cn4BjKuVl)
 -   Live Site URL: [https://arifintajul4.github.io/url-shortening-api-landing-page](https://arifintajul4.github.io/url-shortening-api-landing-page)
 
 ## My process
