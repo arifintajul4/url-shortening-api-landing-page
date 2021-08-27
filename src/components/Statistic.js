@@ -61,7 +61,7 @@ export default function Statistic() {
                                     {el.short}
                                 </a>
                             </div>
-                            <div role="button">
+                            <div>
                                 <Button.alternatif
                                     onClick={() => {
                                         navigator.clipboard.writeText(el.short);

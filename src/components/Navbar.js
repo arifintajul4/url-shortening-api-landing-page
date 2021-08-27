@@ -83,7 +83,7 @@ export default function Navbar() {
                             <a href="/">Resources</a>
                         </li>
                     </ul>
-                    <div role="button">
+                    <div>
                         <Button.secondary className="mr-2">
                             Login
                         </Button.secondary>
