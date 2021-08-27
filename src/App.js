@@ -8,11 +8,19 @@ import Statistic from "./components/Statistic";
 function App() {
     return (
         <div className="overflow-x-hidden">
-            <Navbar />
-            <Hero />
-            <Statistic />
-            <BotomAction />
-            <Footer />
+            <div role="navigation">
+                <Navbar />
+            </div>
+            <div role="banner">
+                <Hero />
+            </div>
+            <div role="main">
+                <Statistic />
+                <BotomAction />
+            </div>
+            <div role="footer">
+                <Footer />
+            </div>
         </div>
     );
 }
