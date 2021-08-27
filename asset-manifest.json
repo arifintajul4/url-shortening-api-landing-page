@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/url-shortening-api-landing-page/static/css/main.bcab0415.chunk.css",
-    "main.js": "/url-shortening-api-landing-page/static/js/main.2e779c81.chunk.js",
-    "main.js.map": "/url-shortening-api-landing-page/static/js/main.2e779c81.chunk.js.map",
+    "main.js": "/url-shortening-api-landing-page/static/js/main.c02d3fb1.chunk.js",
+    "main.js.map": "/url-shortening-api-landing-page/static/js/main.c02d3fb1.chunk.js.map",
     "runtime-main.js": "/url-shortening-api-landing-page/static/js/runtime-main.a82982c2.js",
     "runtime-main.js.map": "/url-shortening-api-landing-page/static/js/runtime-main.a82982c2.js.map",
     "static/js/2.de7b23cc.chunk.js": "/url-shortening-api-landing-page/static/js/2.de7b23cc.chunk.js",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.a82982c2.js",
     "static/js/2.de7b23cc.chunk.js",
     "static/css/main.bcab0415.chunk.css",
-    "static/js/main.2e779c81.chunk.js"
+    "static/js/main.c02d3fb1.chunk.js"
   ]
 }
